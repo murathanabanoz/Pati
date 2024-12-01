@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: rgb(175, 203, 202);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 100%; /* Tamamen yuvarlak */
+  object-fit: cover; /* Resmi alanın boyutlarına sığdırır */
+  object-position: 50% 40%; /* X ve Y ekseninde ayarlama */
+
+  overflow: hidden; /* Taşmaları gizler */
+  position: relative;
+}
+
+.site-title {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #555;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
