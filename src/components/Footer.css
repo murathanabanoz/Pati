@@ -1,0 +1,33 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 2rem;
+  height: 200px;
+  border-top: 1px solid black;
+}
+
+.footer-bottom {
+  display: flex;
+  gap: 15rem;
+  margin-top: 2rem;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.icon {
+  margin-right: 5px;
+  margin-top: 3px;
+  width: 1.5rem;
+  height: 1.5rem;
+}

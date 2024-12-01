@@ -16,11 +16,11 @@
   width: 70px;
   height: 70px;
   margin-right: 10px;
-  border-radius: 100%; /* Tamamen yuvarlak */
-  object-fit: cover; /* Resmi alanın boyutlarına sığdırır */
-  object-position: 50% 40%; /* X ve Y ekseninde ayarlama */
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: 50% 40%;
 
-  overflow: hidden; /* Taşmaları gizler */
+  overflow: hidden;
   position: relative;
 }
 
@@ -28,6 +28,7 @@
   font-size: 1.5em;
   color: #333;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 .header-right {
@@ -38,6 +39,8 @@
 .nav-link {
   text-decoration: none;
   color: #555;
+  font-weight: bold;
+  letter-spacing: 1px;
   font-size: 1em;
   transition: color 0.3s ease;
 }
