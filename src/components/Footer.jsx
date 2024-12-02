@@ -18,11 +18,8 @@ const Footer = () => {
         </div>
 
         <div className="link">
-          <p>
-            <a href="">
-              <FaXTwitter className="icon" />
-            </a>
-          </p>
+          <FaXTwitter className="icon" />
+          <p>&nbsp;</p> {}
         </div>
 
         <div className="link">

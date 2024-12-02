@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Pati from "../assets/Pati-image.webp";
+import Pati from "../assets/pati-logo.png";
 
 const Header = () => {
   return (

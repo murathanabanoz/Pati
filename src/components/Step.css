@@ -1,43 +1,113 @@
 .step-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.step-content-top h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.step-content-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Eşit yüksekliği sağlamak için değiştirildi */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.stepOne,
+.stepTwo,
+.stepThree {
+  flex: 1 1 calc(33.333% - 20px);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: center;
-  gap: 2rem;
-}
-.step-content-bottom {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
 }
 
-.stepOne {
-  flex: 1;
-}
-
-.stepTwo {
-  flex: 1;
-}
-
-.stepThree {
-  flex: 1;
-}
-
-.step-content-bottom p {
-  width: 400px;
-}
-
-.step span {
-  background-color: #ffb0bd;
-  padding: 20px 28px;
-  border-radius: 100%;
-  /* box-shadow: 1px 1px 8px 10px rgb(208, 108, 108); */
-  font-size: 1.5rem;
+.stepOne:hover,
+.stepTwo:hover,
+.stepThree:hover {
+  transform: translateY(-5px);
 }
 
 .step {
-  margin-bottom: 3rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .step-content-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .stepOne,
+  .stepTwo,
+  .stepThree {
+    flex: 1 1 100%;
+  }
+
+  .step {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .step-content-top h1 {
+    font-size: 28px;
+  }
+
+  .step {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }
