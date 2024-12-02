@@ -19,7 +19,7 @@ const Header = () => {
           Satın Al
         </a>
         <a href="#how-to-buy" className="nav-link">
-          How to Buy?
+          Nasıl alırım?
         </a>
         <a href="#" className="nav-link">
           Youtube
