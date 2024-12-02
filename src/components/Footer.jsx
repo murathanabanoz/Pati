@@ -13,12 +13,16 @@ const Footer = () => {
         <div className="link">
           <FaTelegram className="icon" />
           <p>
-            <a href="">Telegram</a>
+            <a href="https://t.me/Patii34" target="_blank">
+              Telegram
+            </a>
           </p>
         </div>
 
         <div className="link">
-          <FaXTwitter className="icon" />
+          <a href="https://x.com/coinpati?s=08" target="_blank">
+            <FaXTwitter className="icon" />
+          </a>
           <p>&nbsp;</p> {}
         </div>
 

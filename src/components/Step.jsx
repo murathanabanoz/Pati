@@ -4,7 +4,7 @@ const Step = () => {
   return (
     <div className="step-container">
       <div className="step-content-top">
-        <h1>HOW TO BUY</h1>
+        <h1 id="how-to-buy">HOW TO BUY</h1>
       </div>
       <div className="step-content-bottom">
         <div className="stepOne">

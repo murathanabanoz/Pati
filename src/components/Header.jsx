@@ -11,13 +11,17 @@ const Header = () => {
       </div>
 
       <nav className="header-right">
-        <a href="#about" className="nav-link">
-          About
-        </a>
-        <a href="#contact" className="nav-link">
-          How to Buy?
+        <a
+          href="https://pump.fun/coin/Brg2B6XFDHn1AEMuaaSP9Qj8xazjVibp7GqzpwXjpump"
+          className="nav-link"
+          target="_blank"
+        >
+          Satın Al
         </a>
         <a href="#how-to-buy" className="nav-link">
+          How to Buy?
+        </a>
+        <a href="#" className="nav-link">
           Youtube
         </a>
       </nav>

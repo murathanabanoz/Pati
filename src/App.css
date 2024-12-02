@@ -5,3 +5,7 @@ body {
   font-family: "Barlow", sans-serif;
   background-color: rgb(175, 203, 202);
 }
+
+html {
+  scroll-behavior: smooth;
+}
