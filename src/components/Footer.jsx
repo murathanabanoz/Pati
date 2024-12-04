@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-top">
-        <h1>Links</h1>
+        <h1>Bağlantılar</h1>
       </div>
       <div className="footer-bottom">
         <div className="link">

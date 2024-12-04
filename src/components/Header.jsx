@@ -21,7 +21,11 @@ const Header = () => {
         <a href="#how-to-buy" className="nav-link">
           Nasıl alırım?
         </a>
-        <a href="#" className="nav-link">
+        <a
+          href="https://www.youtube.com/@paticoin"
+          className="nav-link"
+          target="_blank"
+        >
           Youtube
         </a>
       </nav>

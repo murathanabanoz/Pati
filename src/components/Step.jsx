@@ -4,7 +4,7 @@ const Step = () => {
   return (
     <div className="step-container">
       <div className="step-content-top">
-        <h1 id="how-to-buy">HOW TO BUY</h1>
+        <h1 id="how-to-buy">Nasıl Satın Alırım</h1>
       </div>
       <div className="step-content-bottom">
         <div className="stepOne">
@@ -12,10 +12,10 @@ const Step = () => {
             <span>1</span>
           </div>
           <div>
-            <h3>Cüzdanı Bağla</h3>
+            <h3>Hesap Oluştur</h3>
             <p>
-              Bu web sayfasının üst kısmında bulunan ön satış aracını bulun ve
-              tercih ettiğiniz cüzdanı bağlayın.
+              Bu web sayfasının üst kısmında bulunan satın al butonunu bulun ve
+              bir pumpfun hesabı oluşturun.
             </p>
           </div>
         </div>
@@ -24,10 +24,10 @@ const Step = () => {
             <span>2</span>
           </div>
           <div>
-            <h3>Pumpfun üzerinden $PATI'yı seçin.</h3>
+            <h3> Pumpfun Cüzdana Aktarma</h3>
             <p>
-              Bağlantı kurduktan sonra Pumpfun üzerinden satışa
-              katılabilirsiniz. Arama çubuğuna PATI yazın{" "}
+              Binance, Paribu gibi borsa hesabımızdan $SOL alıp pumpfun
+              cüzdanımıza aktarıyoruz.
             </p>
           </div>
         </div>
