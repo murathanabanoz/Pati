@@ -11,6 +11,11 @@ const Section = () => {
           </div>
           <div className="content-right">
             <div>
+              Pati Coin | Hayvan dostlarımızın yanında hayvan hakları için
+              blockchain teknolojisiyle fark yaratıyoruz. 💙 Destek olun,
+              birlikte daha güzel bir dünya inşa edelim! 🐕🐈
+            </div>
+            <div>
               Hayvanlar, tıpkı insanlar gibi yaşam hakkına sahip, hisleri olan
               canlılardır. Onlara zarar vermek, kötü koşullarda yaşatmak ya da
               istismar etmek, yalnızca vicdani bir suç değil, aynı zamanda

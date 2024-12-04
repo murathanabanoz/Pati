@@ -15,7 +15,7 @@ const Step = () => {
             <h3>Hesap Oluştur</h3>
             <p>
               Bu web sayfasının üst kısmında bulunan satın al butonunu bulun ve
-              bir pumpfun hesabı oluşturun.
+              bir Pump.fun hesabı oluşturun.
             </p>
           </div>
         </div>

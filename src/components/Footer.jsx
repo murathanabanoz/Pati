@@ -29,7 +29,9 @@ const Footer = () => {
         <div className="link">
           <FaYoutube className="icon" />
           <p>
-            <a href="">Youtube</a>
+            <a href="https://www.youtube.com/@paticoin" target="_blank">
+              Youtube
+            </a>
           </p>
         </div>
       </div>
